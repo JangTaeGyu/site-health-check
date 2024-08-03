@@ -6,22 +6,21 @@ GREEN=$(tput setaf 2)
 RED=$(tput setaf 1)
 NC=$(tput sgr0)
 
-
-# =============================== Other Service ===============================
-other_site_names=(
+# ===================================================
+site_names=(
   "Google"
   "Naver"
   "Daum"
   "Nate"
 )
 
-# 사이트 URL 목록
-other_site_urls=(
+site_urls=(
   "https://www.google.co.kr/"
   "https://www.naver.com/"
   "https://www.daum.net/"
   "https://www.nate.com/"
 )
+# ===================================================
 
 # 열 길이 정의
 name_length=30
